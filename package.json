@@ -1,0 +1,8 @@
+{
+  "name": "gitclean",
+  "private": true,
+  "description": "批量清理远程已删除的本地 Git 分支",
+  "scripts": {
+    "gitclean": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./gitclean-npm.ps1"
+  }
+}
